@@ -1,3 +1,3 @@
 # Fichi_JS
 
-[# progress](https://vitalinkaa.github.io/Fichi_JS/)
+[# Brogress Bar](https://vitalinkaa.github.io/Fichi_JS/Progress-Bar/)
