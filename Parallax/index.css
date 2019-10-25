@@ -1,0 +1,80 @@
+body {
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+.scene {
+	z-index: -1;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	min-height: 100vh;
+}
+
+.layout {
+	position: absolute;
+	left: -5%;
+	right: -5%;
+	top: 0;
+	bottom: 0;
+	width: 110%;
+	height: 110%;
+}
+
+.layout-bg {
+	background-image: url(./img/bg_1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.layout-1 {
+	width: 400px;
+	background-image: url(./img/lay_1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+}
+
+.layout-3 {
+	width: 200px;
+	background-image: url(./img/lay_3.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top;
+}
+
+.layout-2 {
+	height: 800px;
+	background-image: url(./img/lay_2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.box__title {
+	font-weight: 900;
+	font-size: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.box__title a {
+	color: rgb(0, 0, 0);
+	transition: color .3s ease-in;
+	text-decoration: none;
+	font-family: 'Raleway',
+	sans-serif;
+	opacity: .6;
+}
+
+.box__title a:hover {
+	color:#fff;
+}
